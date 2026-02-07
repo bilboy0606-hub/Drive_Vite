@@ -1,35 +1,36 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
+# Node and build files
 node_modules
-dist
-dist-ssr
-*.local
-
-# Environment
 .env
 .env.local
 
-# Uploads
-api/uploads/*
-!api/uploads/.gitkeep
+# Source files
+src/
+index.html
+package.json
+package-lock.json
+tailwind.config.js
+postcss.config.js
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+dev-server.*
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
+# Documentation
+README.md
+DEPLOYMENT.md
+QUICKSTART.md
+READY.md
+GITHUB.md
+
+# IDE
+.vscode
 .idea
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# Only track:
+# - dist/
+# - api/
+# - schema.sql
 
 # Environment
 .env
